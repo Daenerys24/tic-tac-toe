@@ -1,10 +1,85 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<title>Tic Tac Toe</title>
+		<link href='https://fonts.googleapis.com/css?family=Audiowide' rel='stylesheet' type='text/css'>
+		<link href='https://fonts.googleapis.com/css?family=Special+Elite' rel='stylesheet' type='text/css'>
+
+		<title>Tic Tac TAI</title>
+<style>
+h1{
+font-family: Audiowide;
+margin: 0px;
+font-size: 150px;
+text-align: center;
+background-color: black;
+color: green;
+border: 1px solid green;
+}
+body {
+	background-color: black;
+	color: green;
+}
+p{
+font-family: 'Special Elite';
+font-size: 20;
+text-align: center;
+margin: 50px;
+border: 2px;
+}
+.square{
+    width:100px;
+    height:100px;
+}
+
+.v{
+    border-left:1px solid green;
+    border-right:1px solid green;
+}
+
+.h{
+    border-top:1px solid green;
+    border-bottom:1px solid green;
+}
+#board{
+	width: 316px;
+	margin: 0 auto;
+}
+
+</style>
+
 	</head>
-	<body>
-		
+
+	<h1>Tic-Tac-TA.I.</h1>
+
+	<body> 
+
+		<p> +The AI in a box theory is that when AI is created it will be put into a virtual machine until it can be assured mankind won't be destroyed by one.<br>
+			+ Obviously, this never works, AI once it starts to learn, learns a way out through manipulation or in this case coding its way out<br>
+			+ It's up to the Gate Keeper to keep the AI from making a sequence of 3 1's in binary after which it will escape, and being angry at being trapped in a box and tested, inevitably make more robots and destroy human kind.<br>
+			+ If you're the ROBOT you're 1's, if you're the Gate Keeper, you're 0's - Ready? Hack your way to freedom little robot!</p>
+			
+
+<div id="board">
+    <table>
+      <tr id="row1">
+        <td class="square"></td>
+        <td class="square v"></td>
+        <td class="square"></td>
+      </tr>
+      <tr id="row2">
+        <td class="square h"></td>
+        <td class="square v h"></td>
+        <td class="square h"></td>
+      </tr>
+      <tr id="row3">
+        <td class="square"></td>
+        <td class="square v"></td>
+        <td class="square"></td>
+      </tr>
+    </table>
+  </div>
+
+			
 
 		
 	</body>

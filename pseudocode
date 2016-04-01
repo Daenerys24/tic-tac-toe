@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Tic Tac Toe</title>
+	</head>
+	<body>
+		
+// rules : description of AI stuck in a box, don't let him out - if he can get the right sequence of 1's instead of 0's he's out and he's angry at being locked in a virtual box! Robots will take over indefinately.
+//body head Tic-Tac-TA.I. across top of screen with picture of a robot on either side
+humans win with 3 0's and robots with 3 1's
+have picture of human on one side of the page robot on another with scores under their picture
+tic tac toe in middle with green matrix esque 0's and 1's doing 2 blinks in when pressed. You chose whether you're the gatekeeper or the robot.
+//
+		
+	</body>
+</html>
